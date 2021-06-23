@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url(birdy.jpg);
+    background-size: cover;
+}
+
+.main{
+    background: #ccc;
+    width: 400px;
+    margin:200px auto;
+    height: 175px;
+    position: relative;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+
+.badge{
+    width: 125px;
+    background: #e66357;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: -20px;
+    left: 34%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.clock{
+    background: #ebebeb;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 20px;
+    font-family: Orbitron, sans-serif;
+    border-radius: 4px;
+   
+}
